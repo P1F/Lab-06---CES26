@@ -13,7 +13,7 @@ function operate(numberOne, numberTwo, operation) {
     return one.times(two).toString();
   }
   if (operation === "÷") {
-    if (two === "0") {
+    if (two == 0) {
       alert("Indefinido");
       return "0";
     } else {

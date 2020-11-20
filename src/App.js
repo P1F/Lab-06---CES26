@@ -1,10 +1,10 @@
-import React from "react";
+import { Component } from "react";
 import Display from "./components/Display";
 import ButtonPanel from "./components/ButtonPanel";
 import calculate from "./logic/calculate";
 import "./App.css";
 
-export default class App extends React.Component {
+class App extends Component {
   state = {
     total: null,
     next: null,
@@ -24,3 +24,5 @@ export default class App extends React.Component {
     );
   }
 }
+
+export default App

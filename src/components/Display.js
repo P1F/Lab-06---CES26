@@ -1,9 +1,9 @@
-import React from "react";
+import { Component } from "react";
 import PropTypes from "prop-types";
 
 import "./Display.css";
 
-class Display extends React.Component {
+class Display extends Component {
   static propTypes = {
     value: PropTypes.string,
   };

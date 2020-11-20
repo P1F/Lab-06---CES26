@@ -1,10 +1,10 @@
 import Button from "./Button";
-import React from "react";
+import { Component } from "react";
 import PropTypes from "prop-types";
 
 import "./ButtonPanel.css";
 
-class ButtonPanel extends React.Component {
+class ButtonPanel extends Component {
   static propTypes = {
     clickHandler: PropTypes.func,
   };
