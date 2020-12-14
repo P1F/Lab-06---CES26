@@ -4,3 +4,5 @@ Dentro da pasta raíz "calculator-app":
 1) Instale as dependências necessárias utilizando `npm install`
 
 2) Rode a aplicação utilizando `npm start`
+
+3) Acesse em `http://localhost:3000/`
